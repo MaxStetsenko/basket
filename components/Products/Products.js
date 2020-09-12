@@ -17,6 +17,7 @@ class Products {
 			element.innerHTML = this.labelAdd;
 		}
 
+		headerPage.render(products.length);
 	}
 
 	// Метод render для того чтобы отобразить данные на странице
@@ -49,9 +50,11 @@ class Products {
 			`;
 		});
 		const html = `
-			<ul class="products-container">
-				${htmlCatalog}
-			</ul>
+			<div class="container">
+				<ul class="products-container">
+					${htmlCatalog}
+				</ul>
+			</div>
 		`;
 		ROOT_PRODUCTS.innerHTML = html;
 	}
