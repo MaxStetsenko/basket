@@ -21,7 +21,7 @@ const CATALOG = [
 		id: 'el4',
 		name: 'LOREM4 IPSUM DOLOR SIT AMET CONSE CTETUAR ADIPISICING ELIT',
 		img: 'https://i.ibb.co/wpjpPjG/catalog4.png',
-		price: 340,
+		price: 33340,
 	},
 	{
 		id: 'el5',
@@ -32,7 +32,7 @@ const CATALOG = [
 	{
 		id: 'el6',
 		name: 'LOREM6 IPSUM DOLOR SIT AMET CONSE CTETUAR ADIPISICING ELIT',
-		img: 'https://i.ibb.co/F4MDcKY/catalog6.png',
+		img: 'https://i.ibb.co/1J6WnVV/catalog5.png',
 		price: 340,
 	},
 ];
