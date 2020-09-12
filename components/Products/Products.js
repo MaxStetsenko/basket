@@ -20,11 +20,9 @@ class Products {
 		headerPage.render(products.length);
 	}
 
-	// Метод render для того чтобы отобразить данные на странице
 	render() {
 
 		const productsStore = localStorageUtil.getProducts();
-
 		let htmlCatalog = '';
 
 		CATALOG.forEach(({ id, name, price, img }) => {

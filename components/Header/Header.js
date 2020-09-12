@@ -1,9 +1,13 @@
 class Header {
 
+	handlerOpenShoppingPage() {
+		shoppingPage.render();
+	}
+
 	render(count) {
 		const html = `
 			<div class="container header-container">
-				<div class="header-counter">
+				<div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
 					🛒	${count}
 				</div>
 			</div>
@@ -14,6 +18,5 @@ class Header {
 
 const headerPage = new Header();
 const productsStore = localStorageUtil.getProducts();
-console.log(productsStore);
 
 headerPage.render(productsStore.length);
